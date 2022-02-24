@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.curve-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+article {
+  width: 350px;
+  z-index: 2;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 30px #7280a7;
+          box-shadow: 0px 10px 30px #7280a7;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+section {
+  width: 100%;
+}
+
+.section__I img {
+  border-radius: 15px 15px 0 0;
+}
+
+.section__II {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px;
+  border-radius: 0 0 15px 15px;
+}
+
+.section__II h1 {
+  font-weight: 900;
+  font-size: 21px;
+  color: #1f2f56;
+}
+
+.section__II p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #7280a7;
+  margin-top: 15px;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+.section__II .annual-plan {
+  width: 100%;
+  background-color: #f5f7ff;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 15px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.section__II .annual-plan * {
+  margin-right: 15px;
+}
+
+.section__II .annual-plan .music-icon {
+  width: 40px;
+}
+
+.section__II .annual-plan h1 {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.section__II .annual-plan p {
+  margin-top: 3px;
+  padding: 0;
+}
+
+.section__II .annual-plan a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #3829e0;
+  position: absolute;
+  right: 0;
+}
+
+.section__II .annual-plan a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.section__II .btn_I {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #3829e0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 10px 20px #7280a7;
+          box-shadow: 0px 10px 20px #7280a7;
+  cursor: pointer;
+}
+
+.section__II .btn_I:hover {
+  opacity: 0.8;
+}
+
+.section__II .btn_II {
+  background: none;
+  border: none;
+  color: #7280a7;
+  font-weight: 900;
+  font-size: 12px;
+  margin: 25px 0 5px;
+  cursor: pointer;
+}
+
+.section__II .btn_II:hover {
+  color: #1f2f56;
+}
