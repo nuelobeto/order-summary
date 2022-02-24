@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/ordersummarycomponent-built-with-html-sass-and-flexbox-DUCwxlw_R)
 - Live Site URL: [live site URL](https://nuelobeto.github.io/order-summary/)
 
 ## My process
